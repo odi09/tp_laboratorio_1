@@ -7,3 +7,18 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\subMenu.o" "..\\src\\subMenu.c"
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
 gcc -o tp-1.exe "src\\calculo_costo.o" "src\\llamadoAfuncion.o" "src\\subMenu.o" "src\\tp-1.o" "src\\utn.o" 
 Info: Nothing to build for tp-1
+00:50:11 **** Incremental Build of configuration Debug for project tp-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\subMenu.o" "..\\src\\subMenu.c" 
+..\src\subMenu.c: In function 'subMenu':
+..\src\subMenu.c:37:14: warning: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+   37 |    opcion2 = tolower(opcion2);
+      |              ^~~~~~~
+gcc -o tp-1.exe "src\\calculo_costo.o" "src\\llamadoAfuncion.o" "src\\subMenu.o" "src\\tp-1.o" "src\\utn.o" 
+00:50:40 **** Incremental Build of configuration Debug for project tp-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\subMenu.o" "..\\src\\subMenu.c" 
+gcc -o tp-1.exe "src\\calculo_costo.o" "src\\llamadoAfuncion.o" "src\\subMenu.o" "src\\tp-1.o" "src\\utn.o" 
+Info: Nothing to build for tp-1
+Info: Nothing to build for tp-1
+Info: Nothing to build for tp-1
